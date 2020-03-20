@@ -8,7 +8,7 @@ def display_rainbow(color)
   puts "B:#{color[4]}"
   puts "I:#{color[5]}"
   puts "V:#{color[6]}"
-
+end
 
 display_rainbow('color[0]')
 display_rainbow('color[1]')
@@ -17,5 +17,4 @@ display_rainbow('color[3]')
 display_rainbow('color[4]')
 display_rainbow('color[5]')
 display_rainbow('color[6]')
-end
-end
+
