@@ -1,6 +1,6 @@
 # Write your #display_rainbow method here
-def display_rainbow(self)
-  puts "R:#{self[0]}, O:#{self[1]}, Y:#{self[2]}, G:#{self[3]}, B:#{self[4]}, I:#{self[5]}, V:#{self[6]}"
+def display_rainbow(color)
+  puts "R:#{color[0]}, O:#{color[1]}, Y:#{color[2]}, G:#{color[3]}, B:#{color[4]}, I:#{color[5]}, V:#{color[6]}"
 end
 color = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 display_rainbow(color)
